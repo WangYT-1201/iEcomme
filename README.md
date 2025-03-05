@@ -74,49 +74,49 @@ git clone https://github.com/RSL459/Second-hand-bike-trading-mall.git
 
 ### 登录页面
 
-![image-20241030213011496](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241030213011496.png)
+![image-20241030213011496](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113632.png)
 
 ### 注册页面
 
-![image-20241030213040069](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241030213040069.png)
+![image-20241030213040069](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113551.png)
 
 ### 首页
 
-![image-20241029003456436](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003456436.png)
+![image-20241029003456436](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113650.png)
 
 #### 搜索页面
 
-![image-20241029003529238](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003529238.png)
+![image-20241029003529238](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20114024.png)
 
 #### 搜索详情页
 
-![image-20241029003537335](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003537335.png)
+![image-20241029003537335](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20114105.png)
 
 #### 笔记详情页
 
-![image-20241029003634067](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003634067.png)
+![image-20241029003634067](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113703.png)
 
 ### 发布笔记页面
 
-![image-20241029003742279](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003742279.png)
+![image-20241029003742279](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113823.png)
 
 
 
 ### 收藏页面
 
-![image-20241029003714973](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003714973.png)
+![image-20241029003714973](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113801.png)
 
 ### 购买页面
 
-![image-20241029003854337](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003854337.png)
+![image-20241029003854337](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113720.png)
 
 ### 消息页面
 
-![image-20241029003803697](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003803697.png)
+![image-20241029003803697](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113840.png)
 
 ### 个人中心
 
-![image-20241029004004763](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029004004763.png)
+![image-20241029004004763](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113852.png)
 
 #### 个人信息
 
@@ -124,21 +124,21 @@ git clone https://github.com/RSL459/Second-hand-bike-trading-mall.git
 
 #### 我发布的
 
-![image-20241029004159812](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029004159812.png)
+![image-20241029004159812](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113904.png)
 
 #### 我卖出的
 
-![image-20241029004207508](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029004207508.png)
+![image-20241029004207508](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113916.png)
 
 #### 我买到的
 
-![image-20241029004216842](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029004216842.png)
+![image-20241029004216842](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113916.png)
 
 #### 地址管理
 
-![image-20241029004251047](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029004251047.png)
+![image-20241029004251047](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113926.png)
 
 ##### 新建/修改地址
 
-![image-20241029004258968](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029004258968.png)
+![image-20241029004258968](https://github.com/WangYT-1201/iEcomme/blob/master/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-05%20113936.png)
 
