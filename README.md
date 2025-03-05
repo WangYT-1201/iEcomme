@@ -1,43 +1,59 @@
-# iecomme
-iecomme-uniapp
-
-这是一个基于 UniApp 的电商平台，支持在微信小程序上运行。后端使用 Flask 提供 API 支持，用户可以注册、登录、浏览商品、出售二手骑行，并管理个人账户。
+# 二手骑行交易市场
+这是一个基于 UniApp 开发的二手骑行交易平台，后端使用express开发，用户可以注册、登录，发布、浏览、收藏、购买二手骑行商品，与卖（买）家沟通协商，并管理个人账户信息、订单、收货地址等。
 
 ## 功能
 
 - **用户认证**
-  - **登录**：用户可以使用电子邮件和密码进行登录。
+  - **登录**：用户可以使用手机号和密码进行登录。
   - **注册**：新用户可以创建账户，填写必要信息。
 
 
 - **首页**
   - 显示热门商品和最新上架的闲置物品。
-  - 提供搜索功能，帮助用户快速找到感兴趣的商品。
+  - **搜索功能**：帮助用户快速找到感兴趣的商品。
+  - **历史搜索记录**：用户可以查看历史搜索的信息
 
-<img src="https://github.com/booboox/iecomme/blob/master/static/%E9%A6%96%E9%A1%B5.png?raw=true" alt="首页" width="200"/>
+- **发布笔记**
+  
+  - 用户可以以发布**笔记**的形式，结合图片和文本信息，介绍自己想要出售的二手骑行商品，填写商品详情（如名称、价格、描述等）
+  - 发布的笔记信息同步显示在个人中心页面
+  
+- **收藏笔记**
 
-- **卖闲置**
-  - 用户可以发布自己的闲置物品，填写商品详情（如名称、价格、描述等）。
-  - 上传商品图片以展示给潜在买家。
+  - 用户可以收藏想进一步了解的二手骑行商品的笔记
+
+  - **收藏**页面同步显示用户当前收藏的笔记
+
+- **购买商品**
+
+  - 与卖家协商达成一致后，买家可以下单购买商品
+  - 订单信息同步显示在个人中心页面
+
+
+- **聊天**
+  - 买家可以在笔记详情页面与卖家发起会话，询问商品信息、商议价格等
+  - **聊天**页面可以查看历史会话信息
 
 - **个人中心**
-  - 用户可以查看和编辑个人信息。
-  - 查看购买历史和当前出售的闲置物品。
+  - 用户可以查看和编辑个人信息
+  - 查看已购买（历史购买）的二手骑行物品订单信息
+  - 收获地址管理
+  - 查看已发布的、卖出的、买到的二手骑行商品
 
 ## 技术栈
 
 - 前端：UniApp
-- 后端：Flask
+- 后端：express
 - 数据库：MySQL
 
 ## 快速开始
-
+- 后端搭建：https://blog.csdn.net/jsl123x/article/details/139031611
 ### 环境要求
 
-- uniapp
-- 微信开发者工具
+- HBuilder X
 - Python 3.x
-- Flask 库
+- express
+- MySQL
 
 ### 安装
 
@@ -46,7 +62,7 @@ iecomme-uniapp
 1. 克隆这个仓库：
    ```bash
    git clone https://github.com/booboox/iecomme.git
-进入项目目录：
+   进入项目目录：
 
 使用HBuilder X运行微信开发者工具打开项目。
 
@@ -70,34 +86,77 @@ bash
 python app.py
 确保后端 API 运行在 http://localhost:5000。
 
-示例截图
-登录页面
+## 示例截图
 
-<img src="https://github.com/booboox/iecomme/blob/master/static/登录.png?raw=true" alt="登录页面" width="200"/>
+### 登录页面
 
-注册页面
+![image-20241029013525469](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029013525469.png)
 
-<img src="https://github.com/booboox/iecomme/blob/master/static/注册.png?raw=true" alt="注册页面" width="200"/>
+![image-20241029013653949](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029013653949.png)
 
-首页
+### 注册页面
 
-<img src="https://github.com/booboox/iecomme/blob/master/static/首页.png?raw=true" alt="首页" width="200"/>
+![image-20241029013612150](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029013612150.png)
 
-卖闲置页面
+### 首页
 
-<img src="https://github.com/booboox/iecomme/blob/master/static/发布.png?raw=true" alt="卖闲置页面" width="200"/>
+![image-20241029003456436](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003456436.png)
 
-个人中心
+#### 搜索页面
 
-<img src="https://github.com/booboox/iecomme/blob/master/static/我的.png?raw=true" alt="个人中心" width="200"/>
+![image-20241029003529238](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003529238.png)
 
-我的发布
+#### 搜索详情页
 
-<img src="https://github.com/booboox/iecomme/blob/master/static/我的发布.png?raw=true" alt="我的发布和消息页面" width="200"/>
+![image-20241029003537335](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003537335.png)
 
-消息页面
+#### 笔记详情页
 
-<img src="https://github.com/booboox/iecomme/blob/master/static/消息.png?raw=true" alt="消息页面" width="200"/>
+![image-20241029003634067](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003634067.png)
 
-联系
-如有问题，请联系我：c79209811@gmail.com
+### 发布笔记页面
+
+![image-20241029003742279](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003742279.png)
+
+
+
+### 收藏页面
+
+![image-20241029003714973](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003714973.png)
+
+### 购买页面
+
+![image-20241029003854337](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003854337.png)
+
+### 消息页面
+
+![image-20241029003803697](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029003803697.png)
+
+### 个人中心
+
+![image-20241029004004763](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029004004763.png)
+
+#### 个人信息
+
+
+
+#### 我发布的
+
+![image-20241029004159812](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029004159812.png)
+
+#### 我卖出的
+
+![image-20241029004207508](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029004207508.png)
+
+#### 我买到的
+
+![image-20241029004216842](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029004216842.png)
+
+#### 地址管理
+
+![image-20241029004251047](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029004251047.png)
+
+##### 新建/修改地址
+
+![image-20241029004258968](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029004258968.png)
+
