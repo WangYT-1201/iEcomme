@@ -47,7 +47,6 @@
 - 数据库：MySQL
 
 ## 快速开始
-- 后端搭建：https://blog.csdn.net/jsl123x/article/details/139031611
 ### 环境要求
 
 - HBuilder X
@@ -59,44 +58,27 @@
 
 #### 前端 (UniApp)
 
-1. 克隆这个仓库：
-   ```bash
-   git clone https://github.com/booboox/iecomme.git
-   进入项目目录：
+克隆仓库：
+```bash
+git clone https://github.com/RSL459/Second-hand-bike-trading-mall.git
+进入项目目录：
+```
 
 使用HBuilder X运行微信开发者工具打开项目。
 
-后端 (Flask)
-进入后端目录：
+#### 后端（express）
 
-bash
-cd backend
-创建虚拟环境并激活：
-
-bash
-python -m venv venv
-source venv/bin/activate  # 对于 Windows 使用 `venv\Scripts\activate`
-安装依赖：
-
-bash
-pip install -r requirements.txt
-启动 Flask 应用：
-
-bash
-python app.py
-确保后端 API 运行在 http://localhost:5000。
+后端搭建：https://blog.csdn.net/jsl123x/article/details/139031611
 
 ## 示例截图
 
 ### 登录页面
 
-![image-20241029013525469](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029013525469.png)
-
-![image-20241029013653949](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029013653949.png)
+![image-20241030213011496](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241030213011496.png)
 
 ### 注册页面
 
-![image-20241029013612150](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241029013612150.png)
+![image-20241030213040069](C:\Users\legion\AppData\Roaming\Typora\typora-user-images\image-20241030213040069.png)
 
 ### 首页
 
